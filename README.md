@@ -1,7 +1,7 @@
 Arduino Light Controller
 ========================
 This is an Arduino sketch for controling a holiday light display based on an 74HC595 shift 
-register.  
+register and some solid state relays.
 
 There are three important control pins on the Arduino:
 
@@ -11,3 +11,4 @@ There are three important control pins on the Arduino:
 
 The write() function goes through a complete write cycle for 16 channel display.
 
+Here's what the sketch looks like in action: https://www.youtube.com/watch?v=BPyLeSQ0ga8
